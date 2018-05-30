@@ -1,0 +1,23 @@
+<div class="jumbotron">
+    <h1>The Undefeated Scraper</h1>
+    <hr>
+    <p>Articles about Sports and Culture.</p>
+    <p>
+        <a href="/articles" role="button"></a>
+        <a href="/saved" role="button" id="saved">View Saved</a>
+        <button type="button" id="scrape" class="btn btn-lg">Scrape</button>
+    </p>
+</div>
+
+<div class="container">
+
+    <div id="scraped-articles">
+
+        {{#each articles}}
+            {{#unless saved}}
+               
+        {{/unless}}
+    {{/each}}
+
+    </div>
+</div>
